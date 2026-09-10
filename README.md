@@ -15,7 +15,7 @@ To prepare the 2D channels and dielectric layers, three distinct preparation and
 
 <img width="2448" height="1920" alt="Mica" src="https://github.com/user-attachments/assets/b186c625-bf0b-4b64-8a71-b2dedb4f5b11" />
 
-*Figure 1: Optical micrograph of mechanically exfoliated few-layer Mica dielectric transferred onto a transparent PDMS stamp, showing clean surface morphology and well-defined step edges.*
+***Figure 1**: Optical micrograph of mechanically exfoliated few-layer Mica dielectric transferred onto a transparent PDMS stamp, showing clean surface morphology and well-defined step edges.*
 
 ---
 
@@ -23,7 +23,7 @@ To prepare the 2D channels and dielectric layers, three distinct preparation and
 
 <img width="2448" height="1920" alt="BSTO" src="https://github.com/user-attachments/assets/b0fed329-c3bc-4940-b1d0-2f464c88bbdc" />
 
-*Figure 2: Optical micrograph of an exfoliated ultrathin BSTO flake on a PDMS stamp. The color contrast indicates thickness uniformity suitable for top-gate dielectric integration.*
+***Figure 2**: Optical micrograph of an exfoliated ultrathin BSTO flake on a PDMS stamp. The color contrast indicates thickness uniformity suitable for top-gate dielectric integration.*
 
 ---
 
@@ -31,7 +31,7 @@ To prepare the 2D channels and dielectric layers, three distinct preparation and
 
 <img width="2448" height="1920" alt="MoS2" src="https://github.com/user-attachments/assets/91122764-58eb-4382-b444-9f05d2cb36ad" />
 
-*Figure 3: Optical micrograph of CVD-grown MoS₂ flakes transferred onto a PDMS stamp, showing the characteristic triangular domain morphology and intact crystal structure after water-assisted delamination.*
+***Figure 3**: Optical micrograph of CVD-grown MoS₂ flakes transferred onto a PDMS stamp, showing the characteristic triangular domain morphology and intact crystal structure after water-assisted delamination.*
 
 
 ---
