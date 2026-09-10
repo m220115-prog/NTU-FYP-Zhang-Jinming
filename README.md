@@ -7,19 +7,32 @@ The fabrication of these 2D heterostructure devices is a high-precision, multi-s
 
 ---
 
-### Step 1: Material Preparation
+### 1. Material Preparation & Exfoliation
 
-To prepare the high-quality 2D crystals and dielectric layers, three distinct preparation and exfoliation strategies were employed:
+To prepare the 2D channels and dielectric layers, three distinct preparation and transfer strategies were employed:
 
-*   **Mica Dielectric**: Few-layer or single-layer Mica was mechanically exfoliated from bulk crystals using the adhesive tape method, then meticulously transferred onto transparent **PDMS stamps**.
+*   **Mica Dielectric**: Few-layer Mica was mechanically cleaved from bulk crystals using adhesive tape and transferred onto transparent **PDMS stamps**.
+
 <img width="2448" height="1920" alt="Mica" src="https://github.com/user-attachments/assets/b186c625-bf0b-4b64-8a71-b2dedb4f5b11" />
-*   **BSTO Dielectric**: Ultrathin BSTO flakes were similarly prepared and transferred onto **PDMS stamps** to act as the high-k ferroelectric dielectric.
+
+*Figure 1: Optical micrograph of mechanically exfoliated few-layer Mica dielectric transferred onto a transparent PDMS stamp, showing clean surface morphology and well-defined step edges.*
+
+---
+
+*   **BSTO Dielectric**: Ultrathin BSTO flakes were exfoliated and transferred onto **PDMS stamps** to act as high-k ferroelectric dielectric layers.
+
 <img width="2448" height="1920" alt="BSTO" src="https://github.com/user-attachments/assets/b0fed329-c3bc-4940-b1d0-2f464c88bbdc" />
-*   **MoS₂ Semiconductor**: Monolayer/few-layer MoS₂ was grown via **Chemical Vapor Deposition (CVD)**. To harvest the MoS₂ films, a water-assisted transfer technique (utilizing water surface tension) was utilized to cleanly lift the MoS₂ off the growth substrate and place it onto **PDMS stamps** for subsequent assembly.
+
+*Figure 2: Optical micrograph of an exfoliated ultrathin BSTO flake on a PDMS stamp. The color contrast indicates thickness uniformity suitable for top-gate dielectric integration.*
+
+---
+
+*   **MoS₂ Semiconductor**: Monolayer/few-layer MoS₂ was synthesized via **CVD**. To harvest the film, water-assisted transfer (utilizing water surface tension) was used to delaminate the MoS₂ from the growth substrate and place it onto **PDMS stamps**.
+
 <img width="2448" height="1920" alt="MoS2" src="https://github.com/user-attachments/assets/91122764-58eb-4382-b444-9f05d2cb36ad" />
 
+*Figure 3: Optical micrograph of CVD-grown MoS₂ flakes transferred onto a PDMS stamp, showing the characteristic triangular domain morphology and intact crystal structure after water-assisted delamination.*
 
-*Figure 1: Optical microscope observation of exfoliated/transferred 2D layers on substrates prior to further processing.*
 
 ---
 
