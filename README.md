@@ -43,11 +43,10 @@ Using a home-built high-precision transfer system, the 2D heterostructures were 
 *   **Precision Alignment**: Under an optical microscope, the target PDMS stamp (carrying MoS₂ or BSTO) was aligned with sub-micron precision over the substrate or pre-patterned electrodes.
 *   **Mechanical Pressing & Adhesion**: Physical contact was made by slowly lowering the stamp. To overcome cases where the flake failed to adhere to the target surface, a localized thermal assistance (**heating the stage to ~60°C**) was applied to optimize the viscoelastic properties of PDMS, ensuring a clean and complete transfer.
 
-<!-- 💡 upload: transfer_gif_1.gif & transfer_gif_2.gif (如果您有2个GIF，可以用并排表格展示) -->
-| Alignment & Contact (Step A) | Successful Release (Step B) |
+| Transfer Equipment Setup | Precision Micro-Alignment & PDMS Release Process |
 | :---: | :---: |
-| ![Transfer Stage 1](images/transfer_gif_1.gif) | ![Transfer Stage 2](images/transfer_gif_2.gif) |
-*Figure 2: Real-time GIF demonstrations of the mechanical dry transfer process under the optical microscope.*
+| <img width="720" height="1280" alt="transferring equipment" src="https://github.com/user-attachments/assets/48b0751c-6cb7-46ea-ae75-576c95021fe0" /> | <img width="720" height="1280" alt="Tranferring" src="https://github.com/user-attachments/assets/c9e3536e-614c-41e7-a650-803b082b78a5" /><br><img width="720" height="1280" alt="transferring equipment" src="https://github.com/user-attachments/assets/5a5ac26a-8df4-4250-916e-58fe6290089a" /> |
+| **Figure 4**: The home-built high-precision micromanipulator and stage setup used for the 2D material transfer and dry van der Waals assembly (left). | **Figure 5**: In-situ optical microscope recording of the micro-alignment and thermal-assisted dry release process of the 2D flake from the PDMS stamp onto the target channel area (right). |
 
 After the stacking steps, the intermediate states for the three main devices were successfully obtained:
 
@@ -105,5 +104,8 @@ The high-performance **BSTO Top-Gate FET** features a unique double-gate configu
 <img width="2448" height="1920" alt="BSTObackgate" src="https://github.com/user-attachments/assets/eca638ed-f356-43ab-9339-51b1bf0129b7" />
 <img width="2448" height="1920" alt="micabackgate" src="https://github.com/user-attachments/assets/c9f6ff90-cc2b-4b43-8b1e-ccd1a162f6f4" />
 <img width="2448" height="1920" alt="MoS2" src="https://github.com/user-attachments/assets/91122764-58eb-4382-b444-9f05d2cb36ad" />
+
+
+
 
 
