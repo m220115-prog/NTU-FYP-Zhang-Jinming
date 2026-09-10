@@ -15,24 +15,17 @@ To prepare the 2D channels and dielectric layers, three distinct preparation and
 
 <img width="2448" height="1920" alt="Mica" src="https://github.com/user-attachments/assets/b186c625-bf0b-4b64-8a71-b2dedb4f5b11" />
 
-***Figure 1**: Optical micrograph of mechanically exfoliated few-layer Mica dielectric transferred onto a transparent PDMS stamp, showing clean surface morphology and well-defined step edges.*
-
 ---
 
 *   **BSTO Dielectric**: Ultrathin BSTO flakes were exfoliated and transferred onto **PDMS stamps** to act as high-k ferroelectric dielectric layers.
 
 <img width="2448" height="1920" alt="BSTO" src="https://github.com/user-attachments/assets/b0fed329-c3bc-4940-b1d0-2f464c88bbdc" />
 
-***Figure 2**: Optical micrograph of an exfoliated ultrathin BSTO flake on a PDMS stamp. The color contrast indicates thickness uniformity suitable for top-gate dielectric integration.*
-
 ---
 
 *   **MoS₂ Semiconductor**: Monolayer/few-layer MoS₂ was synthesized via **CVD**. To harvest the film, water-assisted transfer (utilizing water surface tension) was used to delaminate the MoS₂ from the growth substrate and place it onto **PDMS stamps**.
 
 <img width="2448" height="1920" alt="MoS2" src="https://github.com/user-attachments/assets/91122764-58eb-4382-b444-9f05d2cb36ad" />
-
-***Figure 3**: Optical micrograph of CVD-grown MoS₂ flakes transferred onto a PDMS stamp, showing the characteristic triangular domain morphology and intact crystal structure after water-assisted delamination.*
-
 
 ---
 
@@ -45,14 +38,13 @@ Using a home-built high-precision transfer system, the 2D heterostructures were 
 
 | Transfer Equipment Setup | Precision Micro-Alignment & PDMS Release Process |
 | :---: | :---: |
-| <img width="720" height="1280" alt="transferring equipment" src="https://github.com/user-attachments/assets/48b0751c-6cb7-46ea-ae75-576c95021fe0" /> | <img width="720" height="1280" alt="Tranferring" src="https://github.com/user-attachments/assets/c9e3536e-614c-41e7-a650-803b082b78a5" /><br><img width="720" height="1280" alt="transferring equipment" src="https://github.com/user-attachments/assets/5a5ac26a-8df4-4250-916e-58fe6290089a" /> |
-| **Figure 4**: The home-built high-precision micromanipulator and stage setup used for the 2D material transfer and dry van der Waals assembly (left). | **Figure 5**: In-situ optical microscope recording of the micro-alignment and thermal-assisted dry release process of the 2D flake from the PDMS stamp onto the target channel area (right). |
+| <img width="720" height="1280" alt="transferring equipment" src="https://github.com/user-attachments/assets/48b0751c-6cb7-46ea-ae75-576c95021fe0" /> | <img width="720" height="1280" alt="Tranferring" src="https://github.com/user-attachments/assets/c9e3536e-614c-41e7-a650-803b082b78a5" /> |
 
 After the stacking steps, the intermediate states for the three main devices were successfully obtained:
 
-| 1. Mica Back-Gate (Intermediate) | 2. BSTO Back-Gate (Intermediate) | 3. BSTO Top-Gate (Intermediate) |
+| 1. Mica Back-Gate | 2. BSTO Back-Gate | 3. BSTO Top-Gate |
 | :---: | :---: | :---: |
-| ![Mica BG](images/mica_bg_intermediate.png) | ![BSTO BG](images/bsto_bg_intermediate.png) | ![BSTO TG](images/bsto_tg_intermediate.png) |
+| <img width="2448" height="1920" alt="micabackgate" src="https://github.com/user-attachments/assets/c9f6ff90-cc2b-4b43-8b1e-ccd1a162f6f4" /> | <img width="2448" height="1920" alt="BSTObackgate" src="https://github.com/user-attachments/assets/eca638ed-f356-43ab-9339-51b1bf0129b7" /> | <img width="1920" height="2448" alt="BSTOtopgate" src="https://github.com/user-attachments/assets/ca5f9c71-c800-4358-8541-cbbc86761f08" /> |
 
 ---
 
@@ -71,8 +63,7 @@ During early fabrication runs, we encountered a critical failure where **the dep
 
 | 1. Fabricated Mica Back-Gate | 2. Fabricated BSTO Back-Gate | 3. Fabricated BSTO Top-Gate |
 | :---: | :---: | :---: |
-| ![Mica BG Done](images/mica_bg_final.png) | ![BSTO BG Done](images/bsto_bg_final.png) | ![BSTO TG Done](images/bsto_tg_final.png) |
-*Figure 3: Optical microscope images of the three fully fabricated devices after successful electrode deposition and lift-off.*
+| <img width="2448" height="1920" alt="mica E" src="https://github.com/user-attachments/assets/2ea993a4-be38-4794-967a-95aafa971b21" /> | <img width="2448" height="1920" alt="BSTO E2" src="https://github.com/user-attachments/assets/d7114711-4985-4d71-8288-54ddb549abcd" /> | <img width="2448" height="1920" alt="BSTO top E" src="https://github.com/user-attachments/assets/84f49cad-c599-4a9b-bfe4-a6521fb40b80" /> |
 
 ---
 
@@ -95,15 +86,15 @@ The high-performance **BSTO Top-Gate FET** features a unique double-gate configu
 | Top-Gate Dual-Sweep Hysteresis (0.8V Window) | Leakage Suppression Comparison (Good vs. Leaky Device) |
 | :---: | :---: |
 | ![Hysteresis Curve](images/top_gate_hysteresis.png) | ![Leaky vs Good](images/leaky_vs_good_comparison.png) |
-*Figure 4: Electrical characterization showing (left) ferroelectric memory window and (right) gate leakage current comparison.*
-<img width="2448" height="1920" alt="BSTO E1" src="https://github.com/user-attachments/assets/02b3d8cb-ba17-4abd-a059-e4209382afe0" />
-<img width="2448" height="1920" alt="BSTO top E" src="https://github.com/user-attachments/assets/84f49cad-c599-4a9b-bfe4-a6521fb40b80" />
-<img width="2448" height="1920" alt="BSTO E2" src="https://github.com/user-attachments/assets/d7114711-4985-4d71-8288-54ddb549abcd" />
-<img width="2448" height="1920" alt="mica E" src="https://github.com/user-attachments/assets/2ea993a4-be38-4794-967a-95aafa971b21" />
-<img width="1920" height="2448" alt="BSTOtopgate" src="https://github.com/user-attachments/assets/ca5f9c71-c800-4358-8541-cbbc86761f08" />
-<img width="2448" height="1920" alt="BSTObackgate" src="https://github.com/user-attachments/assets/eca638ed-f356-43ab-9339-51b1bf0129b7" />
-<img width="2448" height="1920" alt="micabackgate" src="https://github.com/user-attachments/assets/c9f6ff90-cc2b-4b43-8b1e-ccd1a162f6f4" />
-<img width="2448" height="1920" alt="MoS2" src="https://github.com/user-attachments/assets/91122764-58eb-4382-b444-9f05d2cb36ad" />
+
+
+
+
+
+
+
+
+
 
 
 
