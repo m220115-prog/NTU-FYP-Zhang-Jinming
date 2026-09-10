@@ -44,7 +44,7 @@ After the stacking steps, the intermediate states for the three main devices wer
 
 | 1. Mica Back-Gate | 2. BSTO Back-Gate | 3. BSTO Top-Gate |
 | :---: | :---: | :---: |
-| <img width="2448" height="1920" alt="micabackgate" src="https://github.com/user-attachments/assets/c9f6ff90-cc2b-4b43-8b1e-ccd1a162f6f4" /> | <img width="2448" height="1920" alt="BSTObackgate" src="https://github.com/user-attachments/assets/eca638ed-f356-43ab-9339-51b1bf0129b7" /> | <img width="1920" height="2448" alt="BSTOtopgate" src="https://github.com/user-attachments/assets/ca5f9c71-c800-4358-8541-cbbc86761f08" /> |
+| <img width="2448" height="1920" alt="micabackgate" src="https://github.com/user-attachments/assets/c9f6ff90-cc2b-4b43-8b1e-ccd1a162f6f4" /> | <img width="2448" height="1920" alt="BSTObackgate" src="https://github.com/user-attachments/assets/eca638ed-f356-43ab-9339-51b1bf0129b7" /> | <img width="2448" height="1920" alt="BSTOtopgate" src="https://github.com/user-attachments/assets/7e96b135-a4ba-434b-a792-e3dfe4c9603a" /> |
 
 ---
 
