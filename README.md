@@ -1,27 +1,27 @@
 # NTU-FYP-Zhang-Jinming
 High-k 2D Dielectric Integration &amp; Leakage Current Suppression in2D FETs
 
-## 🔬 Fabrication & Characterization Workflow
+## Fabrication & Characterization Workflow
 
 The fabrication of these 2D heterostructure devices is a high-precision, multi-step process. Below is the detailed experimental workflow, highlighting the transfer mechanics, process optimization, and troubleshooting of real-world microfabrication challenges.
 
 ---
 
-### 📂 Step 1: Material Preparation
+### Step 1: Material Preparation
 
 To prepare the high-quality 2D crystals and dielectric layers, three distinct preparation and exfoliation strategies were employed:
 
 *   **Mica Dielectric**: Few-layer or single-layer Mica was mechanically exfoliated from bulk crystals using the adhesive tape method, then meticulously transferred onto transparent **PDMS stamps**.
+<img width="2448" height="1920" alt="Mica" src="https://github.com/user-attachments/assets/b186c625-bf0b-4b64-8a71-b2dedb4f5b11" />
 *   **BSTO Dielectric**: Ultrathin BSTO flakes were similarly prepared and transferred onto **PDMS stamps** to act as the high-k ferroelectric dielectric.
 *   **MoS₂ Semiconductor**: Monolayer/few-layer MoS₂ was grown via **Chemical Vapor Deposition (CVD)**. To harvest the MoS₂ films, a water-assisted transfer technique (utilizing water surface tension) was utilized to cleanly lift the MoS₂ off the growth substrate and place it onto **PDMS stamps** for subsequent assembly.
 
 <!-- 💡 upload: mica_mos2_optical.jpg -->
-![Mica and MoS2 Preparation](images/mica_mos2_optical.jpg)
 *Figure 1: Optical microscope observation of exfoliated/transferred 2D layers on substrates prior to further processing.*
 
 ---
 
-### 📂 Step 2: Van der Waals Stacking & Dry Transfer
+### Step 2: Van der Waals Stacking & Dry Transfer
 
 Using a home-built high-precision transfer system, the 2D heterostructures were assembled via dry van der Waals integration:
 
@@ -42,11 +42,11 @@ After the stacking steps, the intermediate states for the three main devices wer
 
 ---
 
-### 📂 Step 3: Electrode Deposition & Fabrication Troubleshooting
+### Step 3: Electrode Deposition & Fabrication Troubleshooting
 
 Electrodes were patterned and deposited using **Electron-Beam Evaporation (EBL/E-beam evaporation)** with a **Cr/Au (5nm / 50nm)** metal stack. 
 
-#### ⚠️ Process Troubleshooting: Electrode Peeling/Lift-off Failure
+#### Process Troubleshooting: Electrode Peeling/Lift-off Failure
 During early fabrication runs, we encountered a critical failure where **the deposited metal electrodes peeled off completely during the lift-off process**. 
 
 *   **Root Cause Analysis**: 
@@ -62,13 +62,13 @@ During early fabrication runs, we encountered a critical failure where **the dep
 
 ---
 
-### 📂 Step 4: Electrical Probing & Device Characterization
+### Step 4: Electrical Probing & Device Characterization
 
 To verify the structural and physical integrity of the devices, they were first inspected under **Optical Microscopy** and **Scanning Electron Microscopy (SEM)**. 
 
 Systematic electrical characterization was then performed at room temperature inside a **shielded probe station** using a **Keysight B1500A Semiconductor Parameter Analyzer**.
 
-#### 🌟 Case Study: Double-Gate Modulation & Memory Window in BSTO Top-Gate
+#### Case Study: Double-Gate Modulation & Memory Window in BSTO Top-Gate
 The high-performance **BSTO Top-Gate FET** features a unique double-gate configuration (utilizing both the silicon back-gate and the BSTO top-gate). This device provided our most comprehensive and authoritative dataset:
 
 1.  **N-type Transistor Behavior**: Confirmed robust n-channel transport characteristics in the MoS₂ channel, showing an excellent On/Off current ratio.
@@ -91,4 +91,4 @@ The high-performance **BSTO Top-Gate FET** features a unique double-gate configu
 <img width="2448" height="1920" alt="micabackgate" src="https://github.com/user-attachments/assets/c9f6ff90-cc2b-4b43-8b1e-ccd1a162f6f4" />
 <img width="2448" height="1920" alt="MoS2" src="https://github.com/user-attachments/assets/91122764-58eb-4382-b444-9f05d2cb36ad" />
 <img width="2448" height="1920" alt="BSTO" src="https://github.com/user-attachments/assets/b0fed329-c3bc-4940-b1d0-2f464c88bbdc" />
-<img width="2448" height="1920" alt="Mica" src="https://github.com/user-attachments/assets/b186c625-bf0b-4b64-8a71-b2dedb4f5b11" />
+
