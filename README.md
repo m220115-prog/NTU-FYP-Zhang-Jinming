@@ -38,7 +38,7 @@ Using a home-built high-precision transfer system, the 2D heterostructures were 
 
 | Transfer Equipment Setup | Precision Micro-Alignment & PDMS Release Process |
 | :---: | :---: |
-| <img width="480" height="600" alt="transferring equipment" src="https://github.com/user-attachments/assets/fae6345c-40b2-4c4a-bf95-f35be39de802" /> | <img width="480" height="600" alt="Transferring" src="https://github.com/user-attachments/assets/eb2300d8-53e9-49a6-a871-ae3ece148892" /> |
+| <img width="400" height="500" alt="transferring equipment" src="https://github.com/user-attachments/assets/16878f50-e6ad-4c73-8bc6-216d812f8a99" /> | <img width="400" height="500" alt="transfer" src="https://github.com/user-attachments/assets/97605128-49e4-49e3-a28f-3aebbdc53d74" /> |
 
 After the stacking steps, the intermediate states for the three main devices were successfully obtained:
 
@@ -86,6 +86,7 @@ The high-performance **BSTO Top-Gate FET** features a unique double-gate configu
 | Top-Gate Dual-Sweep Hysteresis (0.8V Window) | Leakage Suppression Comparison (Good vs. Leaky Device) |
 | :---: | :---: |
 | ![Hysteresis Curve](images/top_gate_hysteresis.png) | ![Leaky vs Good](images/leaky_vs_good_comparison.png) |
+
 
 
 
