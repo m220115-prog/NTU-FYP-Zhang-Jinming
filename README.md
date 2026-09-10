@@ -1,55 +1,94 @@
-<img width="2448" height="1920" alt="image" src="https://github.com/user-attachments/assets/c11cabb1-fff6-48dd-b09b-54a10971b36a" /># NTU-FYP-Zhang-Jinming
+# NTU-FYP-Zhang-Jinming
 High-k 2D Dielectric Integration &amp; Leakage Current Suppression in2D FETs
-
-Welcome! This repository documents my Final Year Project at Nanyang Technological University (NTU), focusing on the design, fabrication, and characterization of novel 2D material-based Field-Effect Transistors (FETs).
-
-The core of this project is to address the performance bottlenecks of 2D material FETs by integrating novel high-k dielectric materials. I successfully fabricated and compared three types of devices: **Mica back-gate**, **BSTO back-gate**, and a high-performance **BSTO top-gate** structure.
-
----
 
 ## 🔬 Fabrication & Characterization Workflow
 
-The fabrication process is a multi-step procedure involving material preparation, precision transfer, and electrode deposition. Here is a visual overview of the key steps.
-
-*   **Step 1: Material Preparation** -> **Step 2: Van der Waals Stacking** -> **Step 3: Electrode Deposition** -> **Step 4: Electrical Probing**
-*  <img width="2448" height="1920" alt="1-50" src="https://github.com/user-attachments/assets/e3a08922-976e-4252-8d5a-82c2f504be2e" />
-
-
-
-**(💡 操作提示：请在这里上传您提到的“最初材料”、“转移好的”、“镀电极的”和“测试”的照片，并修改下面的文件名)**
-
-| Material (MoS₂, BSTO, Mica) | Precision Transfer | Electrode Deposition | Probing & Measurement |
-| :---: | :---: | :---: | :---: |
-| ![Material Preparation](initial_materials.png) | ![Device Transfer](transfer_process.png) | ![Electrode Deposition](electrode_deposition.png) | ![Device Testing](testing_setup.png) |
+The fabrication of these 2D heterostructure devices is a high-precision, multi-step process. Below is the detailed experimental workflow, highlighting the transfer mechanics, process optimization, and troubleshooting of real-world microfabrication challenges.
 
 ---
 
-## 🏆 Key Result: Top-Gate BSTO/MoS₂ Ferroelectric Transistor
+### 📂 Step 1: Material Preparation
 
-The highlight of this project is the successful fabrication of a top-gate FET using a **Barium Strontium Titanate (BSTO)** ferroelectric dielectric. This device not only demonstrates superior transistor performance but also exhibits non-volatile memory capabilities.
+To prepare the high-quality 2D crystals and dielectric layers, three distinct preparation and exfoliation strategies were employed:
 
-### 1. Non-Volatile Memory Effect (Hysteresis Loop)
+*   **Mica Dielectric**: Few-layer or single-layer Mica was mechanically exfoliated from bulk crystals using the adhesive tape method, then meticulously transferred onto transparent **PDMS stamps**.
+*   **BSTO Dielectric**: Ultrathin BSTO flakes were similarly prepared and transferred onto **PDMS stamps** to act as the high-k ferroelectric dielectric.
+*   **MoS₂ Semiconductor**: Monolayer/few-layer MoS₂ was grown via **Chemical Vapor Deposition (CVD)**. To harvest the MoS₂ films, a water-assisted transfer technique (utilizing water surface tension) was utilized to cleanly lift the MoS₂ off the growth substrate and place it onto **PDMS stamps** for subsequent assembly.
 
-The dual-sweep transfer curve ($I_d-V_g$) below clearly shows a large, stable memory window of **~0.8V**. This is direct evidence of ferroelectric polarization switching in the BSTO layer, enabling the device to store information without power. This is the key advantage over conventional Mica or standard BSTO back-gate structures.
-
-**(💡 操作提示：请上传您挑选出的 `IdVd-Vt-dual [8]...png` 文件，并将其重命名为 `top_gate_hysteresis.png` 后放在这里)**
-
-![Transfer Curve with Hysteresis](top_gate_hysteresis.png)
-
-### 2. Excellent Transistor Output Characteristics
-
-The output characteristics ($I_d-V_d$) confirm the device's robust transistor behavior. The curves show clear saturation regions and excellent gate modulation, indicating high-quality channel and contact.
-
-**(💡 操作提示：请上传您挑选出的 `IdVd-Vd-dual [10]...png` 文件，并将其重命名为 `top_gate_output.png` 后放在这里)**
-
-![Output Characteristics](top_gate_output.png)
+<!-- 💡 upload: mica_mos2_optical.jpg -->
+![Mica and MoS2 Preparation](images/mica_mos2_optical.jpg)
+*Figure 1: Optical microscope observation of exfoliated/transferred 2D layers on substrates prior to further processing.*
 
 ---
 
-## 📊 Device Comparison & Summary
+### 📂 Step 2: Van der Waals Stacking & Dry Transfer
 
-| Device Structure | Dielectric Material | Key Feature | Performance Summary |
-|:---|:---|:---|:---|
-| **BSTO Top-Gate** | **BSTO (Ferroelectric)** | **Non-Volatile Memory** | **Excellent!** Achieved >10⁵ On/Off ratio and a stable 0.8V memory window. |
-| BSTO Back-Gate | BSTO (High-k) | High-k Advantage | **Good.** Showed significantly improved gate control (SS ≈ 110 mV/dec) compared to Mica. |
-| Mica Back-Gate | Mica (Conventional) | Baseline/Control | **Fair.** Acted as a baseline, suffered from higher subthreshold swing and interface defects. |
+Using a home-built high-precision transfer system, the 2D heterostructures were assembled via dry van der Waals integration:
+
+*   **Precision Alignment**: Under an optical microscope, the target PDMS stamp (carrying MoS₂ or BSTO) was aligned with sub-micron precision over the substrate or pre-patterned electrodes.
+*   **Mechanical Pressing & Adhesion**: Physical contact was made by slowly lowering the stamp. To overcome cases where the flake failed to adhere to the target surface, a localized thermal assistance (**heating the stage to ~60°C**) was applied to optimize the viscoelastic properties of PDMS, ensuring a clean and complete transfer.
+
+<!-- 💡 upload: transfer_gif_1.gif & transfer_gif_2.gif (如果您有2个GIF，可以用并排表格展示) -->
+| Alignment & Contact (Step A) | Successful Release (Step B) |
+| :---: | :---: |
+| ![Transfer Stage 1](images/transfer_gif_1.gif) | ![Transfer Stage 2](images/transfer_gif_2.gif) |
+*Figure 2: Real-time GIF demonstrations of the mechanical dry transfer process under the optical microscope.*
+
+After the stacking steps, the intermediate states for the three main devices were successfully obtained:
+
+| 1. Mica Back-Gate (Intermediate) | 2. BSTO Back-Gate (Intermediate) | 3. BSTO Top-Gate (Intermediate) |
+| :---: | :---: | :---: |
+| ![Mica BG](images/mica_bg_intermediate.png) | ![BSTO BG](images/bsto_bg_intermediate.png) | ![BSTO TG](images/bsto_tg_intermediate.png) |
+
+---
+
+### 📂 Step 3: Electrode Deposition & Fabrication Troubleshooting
+
+Electrodes were patterned and deposited using **Electron-Beam Evaporation (EBL/E-beam evaporation)** with a **Cr/Au (5nm / 50nm)** metal stack. 
+
+#### ⚠️ Process Troubleshooting: Electrode Peeling/Lift-off Failure
+During early fabrication runs, we encountered a critical failure where **the deposited metal electrodes peeled off completely during the lift-off process**. 
+
+*   **Root Cause Analysis**: 
+    1.  **Electrode Dimensions**: The electrode fingers were designed too fine/narrow, leading to extremely poor aspect ratios and weak physical adhesion to the 2D channel/substrate.
+    2.  **Environmental Factors**: High ambient humidity and continuous rainy days compromised the photoresist adhesion and introduced moisture interfaces.
+    3.  **Target Materials**: Potential contamination or oxidation of the newly-supplied Cr/Au source material charges.
+*   **The Solution**: We optimized the photolithography/EBL mask design by **increasing the width of the electrode lines (widening the contact pads and channels)** to enhance the contact area. This dramatically improved the mechanical adhesion of the metal film, yielding a 100% lift-off success rate in subsequent runs.
+
+| 1. Fabricated Mica Back-Gate | 2. Fabricated BSTO Back-Gate | 3. Fabricated BSTO Top-Gate |
+| :---: | :---: | :---: |
+| ![Mica BG Done](images/mica_bg_final.png) | ![BSTO BG Done](images/bsto_bg_final.png) | ![BSTO TG Done](images/bsto_tg_final.png) |
+*Figure 3: Optical microscope images of the three fully fabricated devices after successful electrode deposition and lift-off.*
+
+---
+
+### 📂 Step 4: Electrical Probing & Device Characterization
+
+To verify the structural and physical integrity of the devices, they were first inspected under **Optical Microscopy** and **Scanning Electron Microscopy (SEM)**. 
+
+Systematic electrical characterization was then performed at room temperature inside a **shielded probe station** using a **Keysight B1500A Semiconductor Parameter Analyzer**.
+
+#### 🌟 Case Study: Double-Gate Modulation & Memory Window in BSTO Top-Gate
+The high-performance **BSTO Top-Gate FET** features a unique double-gate configuration (utilizing both the silicon back-gate and the BSTO top-gate). This device provided our most comprehensive and authoritative dataset:
+
+1.  **N-type Transistor Behavior**: Confirmed robust n-channel transport characteristics in the MoS₂ channel, showing an excellent On/Off current ratio.
+2.  **Ferroelectric Memory Window**: The double-sweep hysteresis curves demonstrate a stable **0.8V memory window** under top-gate voltage modulation, proving the non-volatile polarization switching of the integrated BSTO layer.
+3.  **Gate-Control Comparison (Successful vs. Leaky Back-Gate)**: 
+    *   *Our Top-Gate device* showed pristine switching.
+    *   *Comparison with Failed/Leaky Devices*: To highlight the critical role of gate dielectric optimization, we plot our successful curves alongside data from a **failed/leaky back-gate device** (which suffered from high gate leakage current $I_g$). This comparison clearly demonstrates how the top-gate BSTO integration successfully suppresses leakage current and restores gate control.
+
+<!-- 💡 upload: top_gate_hysteresis.png & leaky_vs_good_comparison.png -->
+| Top-Gate Dual-Sweep Hysteresis (0.8V Window) | Leakage Suppression Comparison (Good vs. Leaky Device) |
+| :---: | :---: |
+| ![Hysteresis Curve](images/top_gate_hysteresis.png) | ![Leaky vs Good](images/leaky_vs_good_comparison.png) |
+*Figure 4: Electrical characterization showing (left) ferroelectric memory window and (right) gate leakage current comparison.*
+<img width="2448" height="1920" alt="BSTO E1" src="https://github.com/user-attachments/assets/02b3d8cb-ba17-4abd-a059-e4209382afe0" />
+<img width="2448" height="1920" alt="BSTO top E" src="https://github.com/user-attachments/assets/84f49cad-c599-4a9b-bfe4-a6521fb40b80" />
+<img width="2448" height="1920" alt="BSTO E2" src="https://github.com/user-attachments/assets/d7114711-4985-4d71-8288-54ddb549abcd" />
+<img width="2448" height="1920" alt="mica E" src="https://github.com/user-attachments/assets/2ea993a4-be38-4794-967a-95aafa971b21" />
+<img width="1920" height="2448" alt="BSTOtopgate" src="https://github.com/user-attachments/assets/ca5f9c71-c800-4358-8541-cbbc86761f08" />
+<img width="2448" height="1920" alt="BSTObackgate" src="https://github.com/user-attachments/assets/eca638ed-f356-43ab-9339-51b1bf0129b7" />
+<img width="2448" height="1920" alt="micabackgate" src="https://github.com/user-attachments/assets/c9f6ff90-cc2b-4b43-8b1e-ccd1a162f6f4" />
+<img width="2448" height="1920" alt="MoS2" src="https://github.com/user-attachments/assets/91122764-58eb-4382-b444-9f05d2cb36ad" />
+<img width="2448" height="1920" alt="BSTO" src="https://github.com/user-attachments/assets/b0fed329-c3bc-4940-b1d0-2f464c88bbdc" />
+<img width="2448" height="1920" alt="Mica" src="https://github.com/user-attachments/assets/b186c625-bf0b-4b64-8a71-b2dedb4f5b11" />
