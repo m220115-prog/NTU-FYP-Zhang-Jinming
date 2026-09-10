@@ -38,7 +38,7 @@ Using a home-built high-precision transfer system, the 2D heterostructures were 
 
 | Transfer Equipment Setup | Precision Micro-Alignment & PDMS Release Process |
 | :---: | :---: |
-| <img width="720" height="1280" alt="transferring equipment" src="https://github.com/user-attachments/assets/48b0751c-6cb7-46ea-ae75-576c95021fe0" /> | <img width="720" height="1280" alt="Tranferring" src="https://github.com/user-attachments/assets/c9e3536e-614c-41e7-a650-803b082b78a5" /> |
+| <img width="320" height="568" alt="transfer  equipment" src="https://github.com/user-attachments/assets/e82c02b8-78eb-4f56-9737-fe3f7ce94aa7" /> |  |
 
 After the stacking steps, the intermediate states for the three main devices were successfully obtained:
 
