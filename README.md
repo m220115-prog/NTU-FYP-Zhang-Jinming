@@ -14,9 +14,11 @@ To prepare the high-quality 2D crystals and dielectric layers, three distinct pr
 *   **Mica Dielectric**: Few-layer or single-layer Mica was mechanically exfoliated from bulk crystals using the adhesive tape method, then meticulously transferred onto transparent **PDMS stamps**.
 <img width="2448" height="1920" alt="Mica" src="https://github.com/user-attachments/assets/b186c625-bf0b-4b64-8a71-b2dedb4f5b11" />
 *   **BSTO Dielectric**: Ultrathin BSTO flakes were similarly prepared and transferred onto **PDMS stamps** to act as the high-k ferroelectric dielectric.
+<img width="2448" height="1920" alt="BSTO" src="https://github.com/user-attachments/assets/b0fed329-c3bc-4940-b1d0-2f464c88bbdc" />
 *   **MoS₂ Semiconductor**: Monolayer/few-layer MoS₂ was grown via **Chemical Vapor Deposition (CVD)**. To harvest the MoS₂ films, a water-assisted transfer technique (utilizing water surface tension) was utilized to cleanly lift the MoS₂ off the growth substrate and place it onto **PDMS stamps** for subsequent assembly.
+<img width="2448" height="1920" alt="MoS2" src="https://github.com/user-attachments/assets/91122764-58eb-4382-b444-9f05d2cb36ad" />
 
-<!-- 💡 upload: mica_mos2_optical.jpg -->
+
 *Figure 1: Optical microscope observation of exfoliated/transferred 2D layers on substrates prior to further processing.*
 
 ---
@@ -90,5 +92,5 @@ The high-performance **BSTO Top-Gate FET** features a unique double-gate configu
 <img width="2448" height="1920" alt="BSTObackgate" src="https://github.com/user-attachments/assets/eca638ed-f356-43ab-9339-51b1bf0129b7" />
 <img width="2448" height="1920" alt="micabackgate" src="https://github.com/user-attachments/assets/c9f6ff90-cc2b-4b43-8b1e-ccd1a162f6f4" />
 <img width="2448" height="1920" alt="MoS2" src="https://github.com/user-attachments/assets/91122764-58eb-4382-b444-9f05d2cb36ad" />
-<img width="2448" height="1920" alt="BSTO" src="https://github.com/user-attachments/assets/b0fed329-c3bc-4940-b1d0-2f464c88bbdc" />
+
 
