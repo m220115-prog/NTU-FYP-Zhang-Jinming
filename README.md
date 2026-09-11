@@ -59,8 +59,6 @@ During early fabrication runs, we encountered a critical failure where **the dep
 | :---: | :---: |
 | <img width="2448" height="1920" alt="BSTO E1" src="https://github.com/user-attachments/assets/40400440-7289-4ff6-ad4a-39d13bd6ace2" /> | <img width="2448" height="1920" alt="BSTO E2" src="https://github.com/user-attachments/assets/23aa55f1-d232-44b9-9d29-fe9491c65f10" /> |
 
-*Figure 6: Optical micrograph of electrode lift-off failure. Due to extremely narrow electrode fingers and weak adhesion, the Cr/Au metal film completely peeled off from the channel area during lift-off.*
-
 *   **Root Cause Analysis**: 
     1.  **Electrode Dimensions**: The electrode fingers were designed too fine/narrow, leading to extremely poor aspect ratios and weak physical adhesion to the 2D channel/substrate.
     2.  **Environmental Factors**: High ambient humidity and continuous rainy days compromised the photoresist adhesion and introduced moisture interfaces.
@@ -78,19 +76,31 @@ To verify the structural and physical integrity of the devices, they were first 
 
 Systematic electrical characterization was then performed at room temperature inside a **shielded probe station** using a **Keysight B1500A Semiconductor Parameter Analyzer**.
 
-#### Case Study: Double-Gate Modulation & Memory Window in BSTO Top-Gate
-The high-performance **BSTO Top-Gate FET** features a unique double-gate configuration (utilizing both the silicon back-gate and the BSTO top-gate). This device provided our most comprehensive and authoritative dataset:
+#### Case Study: Double-Gate Modulation & Memory Window in BSTO Top-Gat
 
-1.  **N-type Transistor Behavior**: Confirmed robust n-channel transport characteristics in the MoS₂ channel, showing an excellent On/Off current ratio.
-2.  **Ferroelectric Memory Window**: The double-sweep hysteresis curves demonstrate a stable **0.8V memory window** under top-gate voltage modulation, proving the non-volatile polarization switching of the integrated BSTO layer.
-3.  **Gate-Control Comparison (Successful vs. Leaky Back-Gate)**: 
-    *   *Our Top-Gate device* showed pristine switching.
-    *   *Comparison with Failed/Leaky Devices*: To highlight the critical role of gate dielectric optimization, we plot our successful curves alongside data from a **failed/leaky back-gate device** (which suffered from high gate leakage current $I_g$). This comparison clearly demonstrates how the top-gate BSTO integration successfully suppresses leakage current and restores gate control.
+#### 4.1. Output Characteristics & N-type Conduction
 
-<!-- 💡 upload: top_gate_hysteresis.png & leaky_vs_good_comparison.png -->
-| Top-Gate Dual-Sweep Hysteresis (0.8V Window) | Leakage Suppression Comparison (Good vs. Leaky Device) |
-| :---: | :---: |
-| ![Hysteresis Curve](images/top_gate_hysteresis.png) | ![Leaky vs Good](images/leaky_vs_good_comparison.png) |
+The output characteristics ($I_d-V_d$) were measured by sweeping the drain voltage ($V_d$) while stepping the back-gate voltage ($V_g$) from -50V to 50V. The resulting curves confirm the device functions as a high-quality field-effect transistor. The drain current ($I_d$) systematically increases with more positive back-gate bias, which is definitive evidence of **n-type (electron-dominated) carrier transport** in the MoS₂ channel. Furthermore, the linear (ohmic) behavior at low $V_d$ and clear current saturation at high $V_d$ indicate good ohmic contacts and pinch-off behavior.
+
+<img width="881" height="356" alt="IdVd-Vb-dual  (10) _1107-bsto-IdVd-Vb-50to50-Vt1_; 12_3_2025 6_13_12 PM" src="https://github.com/user-attachments/assets/f4487fdc-e122-44e8-a4bd-7d9bc7185b15" />
+
+---
+
+#### 4.2. Dual-Gate Tunability of Threshold Voltage
+
+To demonstrate the dual-gate control, the transfer characteristics ($I_d-V_{tg}$) were measured by sweeping the top-gate voltage ($V_{tg}$) under various fixed back-gate voltages ($V_{bg}$ from -50V to 50V). The parallel shift of the transfer curves to the left with increasing positive $V_{bg}$ provides clear evidence of **threshold voltage tunability**. This behavior is characteristic of a dual-gate FET, where the back-gate acts as a secondary control terminal, effectively modulating the electrostatic environment of the MoS₂ channel and allowing for reconfigurable device performance.
+
+<img width="881" height="356" alt="IdVt-dual  (1) _1107-bsto-IdVtg2V-Vbg-50to50_; 12_3_2025 5_43_25 PM" src="https://github.com/user-attachments/assets/b93915cf-3be4-4544-9bec-d2f0c351b571" />
+
+---
+
+#### 4.3. Non-Volatile Memory from Ferroelectric Top-Gate
+
+The core innovation of this device is the non-volatile memory effect, which was verified by a dual-sweep measurement of the top-gate transfer curve ($I_d-V_{tg}$) from -4V to 1V and back. The resulting counter-clockwise **hysteresis loop**, with a clear memory window, is direct proof of ferroelectric polarization switching in the BSTO dielectric. This switching persistently modulates the MoS₂ channel's resistance state even at zero gate bias, confirming the device's function as a non-volatile memory element (FeFET).
+
+<img width="881" height="356" alt="IdVt-dual  (5) _1107-bsto-IdVtg-4to1-Vg60-Vd0 1_; 12_3_2025 6_19_16 PM" src="https://github.com/user-attachments/assets/ef357446-f5d6-476f-8c2c-1f18e8ec4a36" />
+
+
 
 
 
