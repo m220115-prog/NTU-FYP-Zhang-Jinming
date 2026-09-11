@@ -3,7 +3,7 @@ High-k 2D Dielectric Integration &amp; Leakage Current Suppression in2D FETs
 
 ## Fabrication & Characterization Workflow
 
-The fabrication of these 2D heterostructure devices is a high-precision, multi-step process. Below is the detailed experimental workflow, highlighting the transfer mechanics, process optimization, and troubleshooting of real-world microfabrication challenges.
+The fabrication of these 2D heterostructure devices is a high precision and multistep process. Below is the detailed experimental workflow, highlighting the transfer mechanics, process optimization, and solution of real microfabrication challenges.
 
 ---
 
@@ -55,15 +55,20 @@ Electrodes were patterned and deposited using **Electron-Beam Evaporation (EBL/E
 #### Process Troubleshooting: Electrode Peeling/Lift-off Failure
 During early fabrication runs, we encountered a critical failure where **the deposited metal electrodes peeled off completely during the lift-off process**. 
 
+| Electrode Peeling (Failure Case) | Widened Electrodes (Optimized & Resolved) |
+| :---: | :---: |
+| <img width="2448" height="1920" alt="BSTO E1" src="https://github.com/user-attachments/assets/40400440-7289-4ff6-ad4a-39d13bd6ace2" /> | <img width="2448" height="1920" alt="BSTO E2" src="https://github.com/user-attachments/assets/23aa55f1-d232-44b9-9d29-fe9491c65f10" /> |
+
+*Figure 6: Optical micrograph of electrode lift-off failure. Due to extremely narrow electrode fingers and weak adhesion, the Cr/Au metal film completely peeled off from the channel area during lift-off.*
+
 *   **Root Cause Analysis**: 
     1.  **Electrode Dimensions**: The electrode fingers were designed too fine/narrow, leading to extremely poor aspect ratios and weak physical adhesion to the 2D channel/substrate.
     2.  **Environmental Factors**: High ambient humidity and continuous rainy days compromised the photoresist adhesion and introduced moisture interfaces.
-    3.  **Target Materials**: Potential contamination or oxidation of the newly-supplied Cr/Au source material charges.
 *   **The Solution**: We optimized the photolithography/EBL mask design by **increasing the width of the electrode lines (widening the contact pads and channels)** to enhance the contact area. This dramatically improved the mechanical adhesion of the metal film, yielding a 100% lift-off success rate in subsequent runs.
 
 | 1. Fabricated Mica Back-Gate | 2. Fabricated BSTO Back-Gate | 3. Fabricated BSTO Top-Gate |
 | :---: | :---: | :---: |
-| <img width="2448" height="1920" alt="mica E" src="https://github.com/user-attachments/assets/2ea993a4-be38-4794-967a-95aafa971b21" /> | <img width="2448" height="1920" alt="BSTO E2" src="https://github.com/user-attachments/assets/d7114711-4985-4d71-8288-54ddb549abcd" /> | <img width="2448" height="1920" alt="BSTO top E" src="https://github.com/user-attachments/assets/84f49cad-c599-4a9b-bfe4-a6521fb40b80" /> |
+| <img width="2448" height="1920" alt="mica E" src="https://github.com/user-attachments/assets/2ea993a4-be38-4794-967a-95aafa971b21" /> | <img width="2448" height="1920" alt="BSTO E3" src="https://github.com/user-attachments/assets/0dfd1178-8f97-45e5-bc61-277325b3bbe8" /> | <img width="2448" height="1920" alt="BSTO top E" src="https://github.com/user-attachments/assets/84f49cad-c599-4a9b-bfe4-a6521fb40b80" /> |
 
 ---
 
