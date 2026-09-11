@@ -100,6 +100,20 @@ The core innovation of this device is the non-volatile memory effect, which was 
 
 <img width="881" height="356" alt="IdVt-dual  (5) _1107-bsto-IdVtg-4to1-Vg60-Vd0 1_; 12_3_2025 6_19_16 PM" src="https://github.com/user-attachments/assets/ef357446-f5d6-476f-8c2c-1f18e8ec4a36" />
 
+#### 4.3. Architecture Benchmarking: Top-Gate vs. Failed Back-Gate Architectures
+
+A key motivation for developing the top-gate architecture was to overcome the significant challenges associated with back-gate configurations for these materials, namely poor interface quality and dielectric breakdown. To highlight the superiority of our optimized top-gate design, we benchmark its performance against two representative **failed BSTO back-gate devices** from earlier fabrication runs.
+
+As shown below, the back-gate devices exhibited two distinct, critical failure modes:
+1.  **Loss of Gate Control (Fig. 14, left)**: The device shows no switching behavior (On/Off ratio ≈ 1). The gate electric field is completely screened, likely due to an extremely high density of interface traps between the BSTO and the MoS₂ channel, rendering the device non-functional.
+2.  **High Gate Leakage (Fig. 14, middle)**: The gate leakage current ($I_g$, orange curve) is on the same order of magnitude as the drain current ($I_d$, blue curve). This indicates a catastrophic breakdown of the BSTO dielectric, where current leaks directly through the gate instead of modulating the channel.
+
+In stark contrast, the **optimized top-gate architecture (Fig. 14, right)** effectively suppresses both interface traps and leakage current, resulting in a clean, stable, and large hysteresis loop, confirming its robust performance.
+
+| ❌ Failure Mode 1: No Switching | ❌ Failure Mode 2: High Gate Leakage |
+| :---: | :---: |
+| <img width="881" height="356" alt="IdVg  (11) _1031-bsto-12-idvg-vd0 1v_; 12_3_2025 4_59_55 PM" src="https://github.com/user-attachments/assets/8507cc9c-3a14-4d73-903c-b694bfb49b7e" /> | <img width="881" height="356" alt="IdVg  (8) _1024-bsto-23-idvg-vd0 1v-leak_; 12_3_2025 4_51_28 PM" src="https://github.com/user-attachments/assets/05015d51-8937-4532-a04a-71bb94beb10a" /> |
+
 
 
 
