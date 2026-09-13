@@ -104,6 +104,6 @@ The back-gate devices exhibited two distinct, critical failure modes:
 
 In stark contrast, the optimized top-gate architecture (Right) effectively suppresses both interface traps and leakage current. This integration results in a clean, stable, and large hysteresis loop, confirming its robust performance.
 
-| Failure Mode 1: No Switching | Failure Mode 2: High Gate Leakage | Success: Optimized Top-Gate |
+| Failure Mode 1: No Switching | Failure Mode 2: High Gate Leakage |
 | :---: | :---: |
 | <img width="881" height="356" alt="No Switching" src="https://github.com/user-attachments/assets/8507cc9c-3a14-4d73-903c-b694bfb49b7e" /> | <img width="881" height="356" alt="Leakage" src="https://github.com/user-attachments/assets/05015d51-8937-4532-a04a-71bb94beb10a" /> |
