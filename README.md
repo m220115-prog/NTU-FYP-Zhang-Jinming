@@ -1,6 +1,4 @@
-# NTU-FYP-Zhang-Jinming
-High-k 2D Dielectric Integration & Leakage Current Suppression in 2D FETs
-
+# NTU-FYP-High-k 2D Dielectric Integration & Leakage Current Suppression in 2D FETs
 ## Fabrication & Characterization Workflow
 
 Fabricating these 2D heterostructures requires precise micro-manipulation. Here is my hands-on fabrication process, where I resolved the electrode adhesion issues and processed all the electrical test data.
